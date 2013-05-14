@@ -1,0 +1,6 @@
+VertexLitGeneric 
+{
+	$basetexture	models\instruments\gauges\vaz2103\cup
+	$bumpmap		models\instruments\gauges\vaz2103\cup_normal
+	//$selfillum 1
+}

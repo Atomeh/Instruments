@@ -1,0 +1,5 @@
+VertexLitGeneric 
+{
+	$basetexture	models\instruments\gauges\ural\glass
+	$translucent 1
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric 
+{
+	$basetexture	models\instruments\dashboards\vaz2103\cluster
+	$bumpmap		models\instruments\dashboards\vaz2103\cluster_normal
+	$blendtintbybasealpha 1
+}

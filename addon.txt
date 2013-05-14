@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"        "Vehicle instruments"
+	"version"     "git"
+	"author_name" "Atomeh"
+	"author_url"  ""
+	"info"        "what"
+	"override"    "0"
+}

@@ -1,0 +1,10 @@
+function VehicleInstrumentMissingModel(owner, type, model, name, id)
+	local red, green, blue = Color(255,100,100), Color(0,155,0), Color(100,190,190)
+	owner:SendLua("GAMEMODE:AddNotify(\"The model does not exist on the server.\", NOTIFY_ERROR, 5)")
+	owner:SendLua("GAMEMODE:AddNotify(\"Details sent to server console.\", NOTIFY_ERROR, 5)")
+	MsgC(red, "\nACHTUNG! WARNING! OPASNOSTE!\n")
+	MsgC(blue,"    ", owner:GetName(), " attempted to spawn a " .. string.lower(type) .. " with invalid model.\n    ", "Model name: ")
+	MsgC(green, model, "\n")
+	MsgC(blue,"    " .. type .. " name and table id: ")
+	MsgC(green, name .. ", " .. id .. "\n")
+end

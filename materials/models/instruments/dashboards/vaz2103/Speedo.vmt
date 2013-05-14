@@ -1,0 +1,8 @@
+VertexLitGeneric 
+{
+	$basetexture	models\instruments\dashboards\vaz2103\speedo
+	$bumpmap		models\instruments\dashboards\vaz2103\speedo_normal
+	//$selfillum 1
+	//$selfillummask 	models\instruments\dashboards\vaz2103\selfillum
+	$blendtintbybasealpha 1
+}

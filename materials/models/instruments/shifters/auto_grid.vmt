@@ -1,0 +1,4 @@
+VertexLitGeneric 
+{
+	$basetexture	models\instruments\shifters\auto_grid
+}

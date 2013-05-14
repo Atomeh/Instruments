@@ -1,0 +1,6 @@
+VertexLitGeneric 
+{
+	$basetexture	models\instruments\gauges\ural\tacho
+	$bumpmap		models\instruments\gauges\ural\tacho_normal
+	//$selfillum 1
+}

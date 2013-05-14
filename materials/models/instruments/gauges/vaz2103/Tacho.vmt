@@ -1,0 +1,6 @@
+VertexLitGeneric 
+{
+	$basetexture	models\instruments\gauges\vaz2103\tacho
+	$bumpmap		models\instruments\dashboards\vaz2103\tacho_normal
+	//$selfillum 1
+}
