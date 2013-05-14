@@ -146,7 +146,7 @@ function MakeDashboard(Player, Pos, Ang, id, scale)
 	Dashboard:Setup(Dashboard.HasSpeedo, Dashboard.HasTacho)
 	
 	Dashboard:SetModelScale(Dashboard.scale, 0)
-	Dashboard:SetPos(Pos + Vector(0,0,scale*2.2))
+	//Dashboard:SetPos(Pos + Vector(0,0,scale*2.2))
 
 	local physics = Dashboard:GetPhysicsObject()
 	if physics:IsValid() then

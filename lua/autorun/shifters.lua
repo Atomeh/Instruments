@@ -7,7 +7,7 @@ local test = {
 	category 	= "Shifters",
 	entity  	= "sent_shifter",
 	model 		= "models/instruments/shifters/manual_test.mdl",
-	description = "Manual transmission.\nHas 6 positions.\nInput: from 0 to 6"
+	description = "Manual transmission.\n7 positions.\nInput: from 0 to 6\n\nIt has an enormously big texture and bends like a rubber penis."
 	}
 ShifterTable["shift-auto-test"] = test
 
@@ -16,7 +16,7 @@ local test = {
 	category 	= "Shifters",
 	entity  	= "sent_shifter",
 	model 		= "models/instruments/shifters/automatic_test.mdl",
-	description = "Automatic transmission.\n4 positions(Park-Reverse-Neutral-Drive)\nInput: from 0 to 3"
+	description = "Automatic transmission.\n4 positions(Park-Reverse-Neutral-Drive)\nInput: from 0 to 3\n\nThis one also has an enormously huge extra large 16385KB texture and an ERGONOMIC HANDLE."
 	}
 ShifterTable["shift-manual-test"] = test
 
