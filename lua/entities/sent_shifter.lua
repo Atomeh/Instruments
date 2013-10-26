@@ -29,7 +29,7 @@ function MakeShifter(Player, Pos, Ang, id, scale)
 	local Settings  = list.Get("VehicleInstruments")[id]
 	if not Shifter:IsValid() then return false end
 	
-	//A shitload of shit that'll probably never be shitted. Again.
+	--A shitload of shit that'll probably never be shitted. Again.
 	if not util.IsValidModel(Settings.model) then
 		//function is defined in autorun/achtung.lua
 		VehicleInstrumentMissingModel(Player, "Shifter", Settings.model, Settings.name, id)
@@ -57,7 +57,7 @@ function MakeShifter(Player, Pos, Ang, id, scale)
 
 	local physics = Shifter:GetPhysicsObject()
 	if physics:IsValid() then
-		physics:EnableMotion(false)					//This entity most likely will be parented, better freeze it.
+		physics:EnableMotion(false)					--This entity most likely will be parented, better freeze it.
 	end
 
 	undo.Create("Shifter")
@@ -76,7 +76,7 @@ duplicator.RegisterEntityClass("sent_shifter", MakeShifter, "Pos", "Ang", "id")
 function ENT:Think()
 	if not SERVER then return end
 	self:SetPoseParameter("gear", self.Inputs.Gear.Value)
-	self:NextThink(CurTime() + 0.2)
+	self:NextThink(CurTime() + 0.5)
 	return true
 end
 
